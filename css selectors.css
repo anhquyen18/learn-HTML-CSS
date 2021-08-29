@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    color:pink;
+}
+
+.anhquyen1{
+    color:blueviolet;
+}
+
+.anhquyen1.aq2{
+    color: blue;
+}
+
+.parent .parent.p2{
+    color:rgb(172, 240, 140);
+}
+
+.container > .box{
+    color: lightcoral;
+}
