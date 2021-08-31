@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html{
+                margin: 0px;
+            }
+
+            .box{
+                width: 100%;
+                height: 120px;
+                background-color: rgb(120, 216, 219);
+            }
+
+            .box::after{
+                content: attr(data-title);
+            }
+
+            a.a1::after{
+                content: "("attr(href)")";
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <a class="a1" href="youtube.com">Vào youtube </a>
+        <div class="box" data-title="Box màu xanh"></div>
+        <h1>CSS Funtions</h1>
+        <ul>
+            <li>var()</li>
+            <li>linear-gradient()</li>
+            <li>rgba()</li>
+            <li>rgb()</li>
+            <li>calc()</li>
+            <li>attr</li>
+        </ul>
+    </body>
+</html>

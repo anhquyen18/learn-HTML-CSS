@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html{
+                margin: 0px;
+            }
+
+            .box{
+                width: 100%;
+                height: 120px;
+                background-color: rgb(107, 51, 124);
+            }
+
+            /*Kích hoạt màu khi di chuột đến*/
+            h1:hover{
+                color: royalblue;
+            }
+
+            /* Kích hoạt khi bấm giữ chuột vào*/
+            ul:active{ 
+                color: salmon;
+            }
+
+            /* Lấy thằng đầu của li */
+            li:first-child{
+                color:silver
+            }
+
+            /* Lấy thằng cuối li */
+            li:last-child:active{
+                color: silver;
+            }
+
+
+        </style>
+
+    </head>
+
+    <body>
+        <div class="box" title="Box màu tím"></div>
+        <h1>CSS pseudo-classes</h1>
+        <ul>
+            <li>:root</li>
+            <li>:hover</li>
+            <li>:active</li>
+            <li>:first-child</li>
+            <li>last-child</li>
+        </ul>
+    </body>
+</html>

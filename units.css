@@ -1,0 +1,15 @@
+html{
+    font-size: 100px;
+}
+
+h1{
+    font-size: 1em;
+}
+
+ol > .li1{
+    font-size: 0.5rem;
+}
+
+ol > .li2{
+    font-size: 0.5em;
+}
